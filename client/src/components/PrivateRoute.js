@@ -7,7 +7,7 @@ const PrivateRoute = ({component: Component, ...props}) => {
             return <Component />
         }
         return <Redirect to ="/"/>
-    }}
+    }}/>
 }
 
 export default PrivateRoute
